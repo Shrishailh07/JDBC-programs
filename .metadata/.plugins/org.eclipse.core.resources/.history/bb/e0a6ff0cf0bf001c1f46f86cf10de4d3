@@ -1,0 +1,8 @@
+package com.xworkz.games.constant;
+
+public interface DBCConstatnts 
+{
+String URL = "JDBCURL, USERNAME, PASSWORD";
+String USERNAME = "root";
+String PASSWORD = "root";
+}

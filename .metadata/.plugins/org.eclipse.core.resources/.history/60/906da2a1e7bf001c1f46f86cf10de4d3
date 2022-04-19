@@ -1,0 +1,9 @@
+package com.xworkz.gameDTO.GameDTO;
+
+public class GameDTO 
+{
+private int gameId;
+private String gameName;
+private int noOfPlayers;
+private 
+}

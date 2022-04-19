@@ -1,0 +1,5 @@
+package com.xworkz.gameDTO.constant;
+
+public interface DBCConstatnts {
+
+}

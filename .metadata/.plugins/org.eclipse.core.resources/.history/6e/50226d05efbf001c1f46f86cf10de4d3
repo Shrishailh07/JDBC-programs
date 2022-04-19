@@ -1,0 +1,7 @@
+package com.xworkz.games;
+import com.xworkz.games.gameDAO.GameDAO;
+import com.xworkz.games.gameDTO.GameDTO;
+public class Tester 
+{
+
+}

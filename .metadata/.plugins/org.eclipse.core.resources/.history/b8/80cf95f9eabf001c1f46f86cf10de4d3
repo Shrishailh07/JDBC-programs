@@ -1,0 +1,36 @@
+package com.xworkz.games.gameDAO;
+import com.xworkz.games.GameDTO.GameDTO;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+import com.xworkz.gameDTO.GameDTO.GameDTO;
+
+import static com.xworkz.gameDTO.constant.DBCConstatnts.*;
+public class GameDAO 
+{
+			public boolean saveGame(GameDAO gameDTO)
+			{
+				String insertQuery = "INSERT into games VALUES(?,?,?,?)";
+				if(gameDTO!=null)
+				{
+					return false;
+				}
+				else
+				{
+					Connection connection = null;
+				PreparedStatement preparedStatement=null;
+				
+				try {
+					connection = DriverManager.getConnection(JDBCURL, USERNAME, PASSWORD);
+				preparedStatement = connection.prepareStatement("INSERT INTO games VALUES(?,?,?,?)");
+				
+				preparedStatement.setInt(1,GameDTO. );
+			
+				
+			}
+			
+
+		}	
+
+

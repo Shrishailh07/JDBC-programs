@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Game/target/classes/META-INF/maven/com.xworkz.gameApp.dto/Game&apos; to &apos;GameDTO&apos;" description="Rename resource &apos;Game&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="target/classes/META-INF/maven/com.xworkz.gameApp.dto/Game" name="GameDTO" stamp="1650342013507" updateReferences="true"/>
+</session>

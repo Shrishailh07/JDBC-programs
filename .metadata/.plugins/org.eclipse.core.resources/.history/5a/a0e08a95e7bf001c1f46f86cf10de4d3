@@ -1,0 +1,5 @@
+package com.xworkz.gameDTO.GameDTO;
+
+public class GameDTO {
+
+}
