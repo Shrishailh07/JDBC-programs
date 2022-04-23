@@ -6,9 +6,18 @@ import java.sql.PreparedStatement;
 import static com.xworkz.games.constant.DBCConstatnts.*;
 public class GameDAO 
 {
+	public static Connection getConnection() throws Exception {
+	    String driver = "com.mysql.jdbc.Driver";
+	    String url = "jdbc:mysql://localhost:3306/jan06";
+	    String username = "root";
+	    String password = "ROOT";
+	    
+	    Connection conn = DriverManager.getConnection(url, username, password);
+		return conn;
+	    
+	}
 			public static boolean saveGame(GameDTO gameDTO)
 			{
-				
 				if(gameDTO==null)
 				{
 					return false;
