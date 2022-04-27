@@ -45,6 +45,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.xowrkz.filehandling"/>
 			<item value="com.xwokz.gameApp"/>
 			<item value="com.xworkz.gameApp"/>
 			<item value="com.xworkz.gameApp.dto"/>
@@ -54,6 +55,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="File-Handling"/>
 			<item value="GameDTO"/>
 			<item value="Game"/>
 			<item value="Games"/>

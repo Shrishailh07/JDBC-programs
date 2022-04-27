@@ -1,5 +1,0 @@
-package com.xworkz.jdbcdemo.dto;
-
-public class MovieDAO {
-
-}
